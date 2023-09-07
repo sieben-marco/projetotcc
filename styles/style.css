@@ -1,76 +1,164 @@
-@charset "UTF-8";
-
-* {
-    font-family: Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
-}
-
-* body{
-    background-color:#6495ED;
-}
-
-body, header, main, section, form {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-p {
-    display: inline-block;
-    width: fit-content;
-}
-
-h2, h3, h4 {
-    margin: 0 0 10px 0;
-}
-
-#logo {
-    margin-top:140px;
-}
-
-form {
-    padding: 15px;
-    margin-top:70px;
-}
-
-form label {
-    display: block;
-    width: fit-content;
-    padding: 3px 7px;
-    margin-bottom: 0;
-}
-
-input[type=text], input[type=email], input[type=password] {
-    display: block;
-    width: 100%;
-    padding: 5px 15px;
-    margin: 8px 0;
-    border: 1px solid #000;
-    border-radius: 10px;
-    box-sizing: border-box;
-}
-
-button {
-    display: inline-block;
-    width: 100%;
-    font-size: 16px;
-    color: whitesmoke;
-    background-color:#9F9BDA;
-    padding: 8px 20px;
-    margin: 5px 0;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 10px;
-}
-
-button:hover, button:focus {
-    background-color:#6495ED;
-}
- 
-#login{
-    width:100%;
-    margin-top:170px;
-    
-}
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Crimson+Text:ital@1&family=Oswald&display=swap');
+* {
+
+    font-family: Geneva, Tahoma, sans-serif;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    background-image: linear-gradient(rgb(169, 238, 243), rgb(183, 157, 255));
+    background-repeat:repeat;
+}
+
+/*/cabecalho*/
+
+body, header, main, section, form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex-wrap: nowrap;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+/*paragrafos*/
+p {
+
+    display: inline-block;
+
+    width: fit-content;
+    margin-bottom: 200px;
+    font-family:"Crimson Text";
+
+}
+
+
+/*qualquer titulo*/
+h2, h3, h4 {
+
+    margin: 0 0 10px 0;
+    margin-bottom: 250px;
+
+
+}
+
+
+
+/*logo*/
+img{
+    width: 170px;
+    height: 170px;
+    margin-top: 70px;
+   
+    
+}
+
+
+/*formularios*/
+form {
+
+    padding: 15px;
+
+    margin-top:70px;
+
+}
+
+
+/*textos acima das caixas*/
+form label {
+
+    display: block;
+
+    width: fit-content;
+
+    padding: 3px 7px;
+
+    margin-bottom: 0;
+    
+
+}
+
+/*caixa*/
+
+input[type=text], input[type=email], input[type=password] {
+
+    display: block;
+
+    width: 100%;
+
+    padding: 5px 15px;
+
+    margin: 8px 0;
+
+    border: 1px solid #000;
+
+    border-radius: 10px;
+
+    box-sizing: border-box;
+
+}
+
+/*botoes*/
+
+button {
+
+    display: inline-block;
+
+    width: 110%;
+
+    font-size: 16px;
+
+    color: whitesmoke;
+
+    background-color:#9F9BDA;
+
+    padding: 8px 20px;
+
+    margin: 5px 0;
+
+    margin-bottom: 20px;
+
+    border: none;
+
+    border-radius: 10px;
+
+}
+
+/*cursor botao*/
+
+button:hover, button:focus {
+
+    background-color:#6495ED;
+
+}
+
+ 
+/*maria?*/
+#login{
+
+    width:100%;
+
+    
+
+    
+
+}
+.nomeapp{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: "Archivo Black";
+    color: #7242a8;
+}
