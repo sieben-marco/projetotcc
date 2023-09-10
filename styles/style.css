@@ -1,18 +1,23 @@
+/* configura conjunto de caracteres deste arquivo css */
 @charset "UTF-8";
+/* importa fonte do google */
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+
+/* aplica os estilos abaixo em todos os elementos */
 * {
     font-family: Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
 
+/* aplica cor de fundo na tela inteira e repete caso precise */
 body{
     background-image: linear-gradient(rgb(169, 238, 243), rgb(183, 157, 255));
     background-repeat:repeat;
-    height: 100dvh;
 }
 
-/*cabecalho*/
+/* display flexível na div que envolve todo o site,
+no cabeçalho e na section dentro do bloco main */
 div.container, header, section {
     display: flex;
     flex-direction: column;
@@ -21,14 +26,26 @@ div.container, header, section {
     align-items: center;
 }
 
+/* aplica uma altura igual a tela do dispositivo através
+da div que envolve o site inteiro */
 .container {
     height: 100dvh;
 }
 
+/* retira altura igual a tela do dispositivo (apenas no
+saiba-mais.html) da div envelope, pois neste arquivo tem
+muito conteúdo */
+div.saiba-mais {
+    height: auto;
+}
+
+/* espaçamento entre as elementos do cabeçalho e da section
+dentro do bloco main */
 header, section {
     row-gap: 15px;
 }
 
+/* largura bloco header e bloco main */
 header, main {
     width: 70%;
 }
@@ -41,25 +58,19 @@ p {
     font-family:"Crimson Text";
 }
 
-/*qualquer titulo*/
-/* h2, h3, h4 {
-    margin: 0 0 10px 0;
-    margin-bottom: 250px;
-} */
-
+/* largura botão de recuperação de senha (é um <a>) */
 .esqueci-senha {
     width: 100%;
-    /* margin-bottom: 30px; */
 }
 
-/*logo*/
+/* configura largura e altua do logo do produto */
 .logo {
     width: 150px;
     height: 150px;
-    /* margin-top: 50px; */
 }
 
 
+/* posicionamento e espaçamento no formulário de login */
 .form-login {
     display: flex;
     flex-direction: column;
@@ -67,46 +78,39 @@ p {
 }
 
 
-/*textos acima das caixas*/
+/* textos acima das caixas de inserção de dados */
 form label {
     display: block;
     width: fit-content;
-    /* padding: 3px 7px; */
-    /* margin-bottom: 0; */
 }
 
-/*caixa*/
+/* caixas de inserção de dados */
 input[type=text], input[type=email], input[type=password] {
     display: block;
     width: 100%;
-    /* padding: 5px 15px; */
-    /* margin: 8px 0; */
     border: 1px solid #000;
     border-radius: 10px;
     box-sizing: border-box;
 }
 
-/*botoes*/
+/* botões */
 button {
     display: inline-block;
     width: 100%;
     font-size: 16px;
     color: whitesmoke;
     background-color:#9F9BDA;
-    /* padding: 8px 20px; */
-    /* margin: 5px 0; */
-    /* margin-bottom: 20px; */
     border: none;
     border-radius: 10px;
 }
 
-/*cursor botao*/
+/* cursor sobre os botões */
 button:hover, button:focus {
     background-color:#6495ED;
 }
 
+/* estilos do nome do app (h3) */
 .nomeapp{
-    /* margin-top: 80px; */
     margin: 0;
     font-family: "Archivo Black";
     color: #7242a8;
