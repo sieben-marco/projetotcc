@@ -2,7 +2,7 @@
     // print_r($_REQUEST);
 
     if (isset($_GET["submit"]) /*&& !empty($_GET["email"]) && !empty($_GET["senha"])*/) {
-        include_once("./script/config.php");
+        include_once("./scripts/config.php");
         $email = $_GET['email'];
         $senha = $_GET['senha'];
 

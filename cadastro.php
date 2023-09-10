@@ -19,7 +19,7 @@
         </header>
 
         <main>
-            <form action="./api/cadastro-banco.php" method="get">
+            <form action="./scripts/cadastro-banco.php" method="get">
                 <label for="nome">Digite seu nome: </label>
                 <input type="text" name="nome" id="nome">
 
