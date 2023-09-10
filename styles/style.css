@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Crimson+Text:ital@1&family=Oswald&display=swap');
 
-body div:last-child a {
+a[href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"] {
     display: none;
 }
 
