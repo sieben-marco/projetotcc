@@ -10,5 +10,6 @@
 
     $result = mysqli_query($conexao, "insert into teste_cliente (id_cliente, nome, email, senha) values ('$id', '$nome', '$user', '$senha')");
 
-    echo "<br>$result";
+    // echo "<br>$result";
+    header("Location: ./../sistema.php");
 ?>
