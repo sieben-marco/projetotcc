@@ -49,7 +49,7 @@
 
         <main>
 
-            <form action="<?= $_SERVER['PHP_SELF'] ?>" method="get">
+            <form action="<?= $_SERVER['PHP_SELF'] ?>" method="get" class="form-login">
                 <div class="form-group">
                     <label for="email" class="col-form-label">Insira seu email: </label>
                     <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu email">
@@ -63,7 +63,7 @@
                 <button type="submit" name="submit" value="Entrar" class="btn btn-primary">Entrar</button>
             </form>
 
-            <a class="btn btn-primary esqueci" href="./atualizar-senha.html">Esqueci minha senha</a>
+            <a class="btn btn-primary esqueci-senha" href="./atualizar-senha.html">Esqueci minha senha</a>
         </main>
 
     </div>
