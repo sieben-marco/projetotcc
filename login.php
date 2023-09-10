@@ -12,7 +12,7 @@
 
         <header>
             <div id="logo" onclick="javascript:document.location.href='./index.html'">
-                <img src="assets/logo azul.png" alt="logo do app aqui"> 
+                <img class="logo" src="assets/logo azul.png" alt="logo do app aqui"> 
             </div>
 
             <h3 class="nomeapp">Control-AR</h3>
