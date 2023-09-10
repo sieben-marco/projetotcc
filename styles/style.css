@@ -4,10 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo+Black&family=Crimson+Text:ital@1&family=Oswald&display=swap');
 
-a[href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"] {
-    display: none;
-}
-
 * {
     font-family: Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
@@ -110,3 +106,11 @@ button:hover, button:focus {
     font-family: "Archivo Black";
     color: #7242a8;
 }
+
+/* =====
+REMOVE MARCAÇÃO NO RODAPÉ COLOCADO PELO PRÓPIO SITE 
+==== */
+a[href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"] {
+    display: none;
+}
+/* ====== */

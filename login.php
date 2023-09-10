@@ -40,9 +40,9 @@
                     $mostra_erro = mysqli_num_rows($result);
 
                     if(mysqli_num_rows($result) < 1) {
-                        header("location: ./login.php");
+                        header("Location: ./login.php");
                     } else {
-                        header("location: ./sistema.php");
+                        header("Location: ./sistema.php");
                     }
                 } /*else {
                     header("location: ./login.php");
