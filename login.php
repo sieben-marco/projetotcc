@@ -55,6 +55,8 @@
     <div class="container">
 
         <header>
+            <button type="button" class="voltar" onclick="javascript:document.location.href='./index.html'"><--</button>
+
             <div id="logo" onclick="javascript:document.location.href='./index.html'">
                 <img class="logo" src="assets/logo azul.png" alt="logo do app aqui">
             </div>

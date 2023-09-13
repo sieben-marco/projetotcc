@@ -18,6 +18,8 @@
 
         <!-- bloco envolvendo o logo e nome do produto -->
         <header>
+            <button type="button" class="voltar" onclick="javascript:document.location.href='./index.html'"><--</button>
+
             <div id="logo" onclick="javascript:document.location.href='./index.html'">
                 <!-- imagem com o logo do produto -->
                 <img class="logo" src="assets/logo azul.png" alt="logo do app aqui">

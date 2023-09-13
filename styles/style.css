@@ -61,6 +61,7 @@ p {
 /* largura botão de recuperação de senha (é um <a>) */
 .esqueci-senha {
     width: 100%;
+    margin-top: 20px;
 }
 
 /* configura largura e altua do logo do produto */
@@ -114,6 +115,14 @@ button:hover, button:focus {
     margin: 0;
     font-family: "Archivo Black";
     color: #7242a8;
+}
+
+button.voltar {
+    position: fixed;
+    top: 18px;
+    left: 18px;
+    width: 38px;
+    height: 38px;
 }
 
 /* =====
